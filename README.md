@@ -10,8 +10,8 @@
 
 > *Still learning. Still building. Still dreaming.*
 
-A minimalist Japanese-inspired personal portfolio website
-built to showcase my journey in **UI/UX Design, Development, and Creativity**.
+A minimalist Japanese-inspired personal landing page
+built to showcase my journey in **UI/UX Design and Front-End Development**.
 
 ---
 
@@ -23,11 +23,24 @@ built to showcase my journey in **UI/UX Design, Development, and Creativity**.
 
 ## ✨ Features
 
-* 🌏 Multi-language support (Indonesian / English / Japanese)
-* 🎨 Japanese minimalist UI design
-* 📱 Responsive layout (Mobile & Desktop)
-* 🔗 Integrated with social media (Instagram & Linktree)
-* ⚡ Lightweight & fast performance
+* 🌏 Multi-language system (ID / EN / JP)
+* 🌗 Light & Dark mode toggle (auto saved)
+* 🌸 Sakura background animation (canvas-based)
+* 🎨 Japanese minimalist UI
+* 📱 Fully responsive (mobile & desktop)
+* ⚡ Lightweight (Vanilla JS)
+
+---
+
+## 🧠 Sections
+
+* 👤 About Me
+* 🎯 What I Do (Positioning)
+* ⚡ Skills
+* 🛠️ Tools
+* 🧠 How I Work (Process)
+* 🖼️ Portfolio (Instagram integrated)
+* 📩 Contact
 
 ---
 
@@ -36,11 +49,11 @@ built to showcase my journey in **UI/UX Design, Development, and Creativity**.
 > 「静かに成長する」
 > *Growing quietly, but consistently.*
 
-This project represents my journey:
+I focus on:
 
-* learning design 🎨
-* building with code 💻
-* and evolving step by step 🚶‍♂️
+* building structured interfaces
+* designing with clarity
+* improving through real projects
 
 ---
 
@@ -49,6 +62,7 @@ This project represents my journey:
 * HTML5
 * CSS3
 * JavaScript (Vanilla)
+* Canvas API (Animation)
 
 ---
 
@@ -59,16 +73,17 @@ shizuka-portfolio/
 │── index.html
 │── style.css
 │── script.js
+img/
 ```
 
 ---
 
 ## 🎨 Design Direction
 
-* Japanese Minimalism
-* Dark Mode UI 🌑
-* Soft Green Accent 🌿
-* Clean Typography
+* Japanese Minimalism 🇯🇵
+* Red Accent (Light & Dark Theme)
+* Clean Layout & Typography
+* Subtle Motion (Sakura & Interaction)
 
 ---
 
@@ -83,20 +98,21 @@ shizuka-portfolio/
 
 ## 🚀 Future Improvements
 
-* ✨ Animation (sakura / smooth transitions)
-* ⚛️ React + Tailwind version
-* 📊 Case study section (UI/UX projects)
-* 🌍 Dynamic language system
+* ✨ Scroll animations (fade / reveal)
+* 🌐 Auto language detection
+* 📊 Case study section (UI/UX)
+* ⚛️ React / Next.js version
+* 🎮 Interactive UI / micro-interactions
 
 ---
 
 ## 🤍 Closing
 
 > *This is not just a portfolio.*
-> *This is a reflection of my growth.*
+> *This is a system of growth.*
 
 ---
 
 <p align="center">
-  🌸 Built with passion by <b>Dzul Arsyil</b> 🌸
+  🌸 Built with intention by <b>Dzul Arsyil</b> 🌸
 </p>
