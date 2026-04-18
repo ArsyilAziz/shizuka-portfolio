@@ -17,7 +17,7 @@ built to showcase my journey in **UI/UX Design and Front-End Development**.
 
 ## 🌐 Live Preview
 
-🚀 Coming soon...
+🚀 https://shizuka-portfolio.vercel.app
 
 ---
 
