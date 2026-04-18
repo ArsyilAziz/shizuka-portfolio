@@ -1,0 +1,302 @@
+/* 🌿 ROOT THEME */
+:root {
+  --bg: #0b0f14;
+  --text: #ffffff;
+  --accent: #ff4d4d;
+  --glass: rgba(255,255,255,0.05);
+}
+
+body[data-theme="light"] {
+  --bg: #ffffff;
+  --text: #111111;
+  --accent: #d60000;
+  --glass: rgba(0,0,0,0.05);
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.4s;
+  overflow-x: hidden;
+}
+
+/* 🌸 SAKURA */
+#sakura {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* 📦 SECTION */
+section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 20px;
+}
+
+/* 🎛️ CONTROLS */
+.controls {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.controls button {
+  margin: 3px;
+  padding: 6px 10px;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.controls button:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* 🎌 HERO */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+
+.hero p {
+  opacity: 0.7;
+}
+
+/* CTA */
+.cta a {
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid var(--accent);
+  padding: 10px 22px;
+  color: var(--accent);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta a:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* 🌫️ GLASS */
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(12px);
+  border-radius: 14px;
+  padding: 30px;
+}
+
+/* 👤 ABOUT */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+.about-content p {
+  font-size: 15px;
+}
+
+.about-content b {
+  color: var(--accent);
+}
+
+.about-content p:last-child {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* 🎯 POSITIONING + STORY + LEARNING STYLE */
+.positioning,
+.story,
+.learning {
+  text-align: center;
+}
+
+.positioning p,
+.story p,
+.learning p {
+  max-width: 700px;
+  margin: auto;
+  opacity: 0.85;
+  line-height: 1.7;
+}
+
+/* ⚡ SKILLS */
+.skill-list {
+  margin-top: 15px;
+}
+
+.skill-list span {
+  border: 1px solid var(--accent);
+  padding: 8px 14px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 20px;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.skill-list span:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* 🛠️ TOOLS */
+.tool-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.tool-icons img {
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.tool-icons img:hover {
+  transform: scale(1.1);
+}
+
+/* 🖼️ PORTFOLIO */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+  transition: 0.5s;
+}
+
+.card:hover img {
+  transform: scale(1.08);
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.3s;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+
+/* 🌸 QUOTE */
+.quote {
+  text-align: center;
+  opacity: 0.7;
+  font-style: italic;
+  padding: 60px 20px;
+}
+
+/* 📩 CTA */
+.cta-section {
+  text-align: center;
+}
+
+.cta-section p {
+  margin-bottom: 10px;
+}
+
+.cta-section a {
+  display: inline-block;
+  border: 1px solid var(--accent);
+  padding: 10px 20px;
+  color: var(--accent);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-section a:hover {
+  background: var(--accent);
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 40px;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+/* 📱 RESPONSIVE */
+@media (max-width: 768px) {
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  section {
+    padding: 60px 15px;
+  }
+
+  .controls {
+    top: 10px;
+    right: 10px;
+  }
+
+  .controls button {
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+  }
+
+}

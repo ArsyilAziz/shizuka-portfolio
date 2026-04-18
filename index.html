@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shizuka Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body data-theme="dark">
+
+<canvas id="sakura"></canvas>
+
+<!-- 🌐 Controls -->
+<div class="controls">
+  <button onclick="setLang('id')">ID</button>
+  <button onclick="setLang('en')">EN</button>
+  <button onclick="setLang('jp')">JP</button>
+  <button onclick="toggleTheme()">☀️/🌙</button>
+</div>
+
+<!-- 🎌 HERO -->
+<section class="hero">
+  <h1 id="title"></h1>
+  <p id="subtitle"></p>
+
+  <div class="cta">
+    <a href="#portfolio" id="cta-view"></a>
+  </div>
+</section>
+
+<!-- 👤 ABOUT -->
+<section class="about glass">
+  <h2 id="about-title"></h2>
+  <div id="about-text" class="about-content"></div>
+</section>
+
+<!-- 🎯 POSITIONING -->
+<section class="positioning">
+  <h2 id="positioning-title"></h2>
+  <p id="positioning-text"></p>
+</section>
+
+<!-- ⚡ SKILLS -->
+<section class="skills">
+  <h2 id="skills-title"></h2>
+  <div class="skill-list" id="skills-list"></div>
+</section>
+
+<!-- 🛠️ TOOLS -->
+<section class="tools">
+  <h2 id="tools-title"></h2>
+
+  <div class="tool-icons">
+    <img src="https://skillicons.dev/icons?i=figma">
+    <img src="https://skillicons.dev/icons?i=html">
+    <img src="https://skillicons.dev/icons?i=css">
+    <img src="https://skillicons.dev/icons?i=js">
+    <img src="https://skillicons.dev/icons?i=git">
+    <img src="https://skillicons.dev/icons?i=github">
+  </div>
+</section>
+
+<!-- 🧠 STORY -->
+<section class="story">
+  <h2 id="story-title"></h2>
+  <div id="story-text" class="story-content"></div>
+</section>
+
+<!-- 🖼️ PORTFOLIO -->
+<section id="portfolio" class="portfolio">
+  <h2 id="portfolio-title"></h2>
+
+  <div class="grid">
+    <a href="https://www.instagram.com/p/DIatiMpRnBD/" target="_blank" class="card">
+      <img src="img/founit.png">
+      <div class="overlay" id="overlay-1"></div>
+    </a>
+
+    <a href="https://www.instagram.com/p/DLmZ5dqz6gP/" target="_blank" class="card">
+      <img src="img/maomao.png">
+      <div class="overlay" id="overlay-2"></div>
+    </a>
+
+    <a href="https://www.instagram.com/p/DXG4Z-fkwaK/" target="_blank" class="card">
+      <img src="img/sentrawarga.png">
+      <div class="overlay" id="overlay-3"></div>
+    </a>
+  </div>
+</section>
+
+<!-- 🌸 QUOTE -->
+<section class="quote">
+  <p id="quote-text"></p>
+  <span id="quote-sub"></span>
+</section>
+
+<!-- 📩 CTA -->
+<section class="cta-section">
+  <p id="cta-text"></p>
+  <a href="https://linktr.ee/DzulArsyil" id="cta-contact"></a>
+</section>
+
+<footer>
+  🌸 Dzul Arsyil
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
